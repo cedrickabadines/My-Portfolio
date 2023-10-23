@@ -1,0 +1,107 @@
+body {
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif; */
+}
+
+#header {
+    height: 90vh;
+    background-image: url('./images/header.jpg');
+    background-size: cover;
+}
+
+#header div header ul * {
+    color: #EEEEEE;
+}
+/* 64CCC5 */
+
+#header div:nth-child(2) {
+    color: #EEEEEE;
+    font-family: 'Caveat', cursive;
+    /* font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Noto Sans', sans-serif; */
+   
+    font-size: 3rem;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+#header div:nth-child(2) > span{
+    font-size: 5rem;
+    /* font-family: 'Libre Baskerville', serif; */
+}
+
+.me {
+    border-radius: 50%;
+}
+
+ul {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    #experience-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+#skills div div div:nth-child(2) ul {
+    color: black;
+    
+}
+
+#skills div div div:nth-child(3) ul li{
+    color: white;
+    /* opacity: 100%; */
+}
+
+#certifications div {
+    background-color: black;
+    color: #EEEEEE;
+}
+
+#get-in-touch {
+    /* background-image: url('./images/footer.jpg'); */
+    height: 35vh;
+    background-color: white;
+}
+
+#get-in-touch {
+    @media (min-width: 992px) {
+        .container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          grid-gap: 20px;
+        }
+      }
+
+    @media (max-width: 991px) {
+        .reach-me {
+            display: none;
+        }
+    }
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+    gap: 2px;
+}
+
+/* .grid-2 {
+    display: grid;
+    grid-template-columns: 400px auto;
+    grid-template-rows: repeat(7, auto);
+    font-size: 20px;
+    
+} */
+
+.footer {
+    margin-top: 100px;
+    background-color: black;
+    color: #EEEEEE;
+}
